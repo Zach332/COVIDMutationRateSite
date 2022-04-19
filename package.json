@@ -1,7 +1,7 @@
 {
   "name": "covid-mut",
   "version": "0.1.0",
-  "homepage": "https://gitname.github.io/COVIDMutationRateSite",
+  "homepage": "https://zach332.github.io/COVIDMutationRateSite",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
