@@ -1,13 +1,17 @@
 {
   "files": {
     "main.css": "/COVIDMutationRateSite/static/css/main.e6c13ad2.css",
-    "main.js": "/COVIDMutationRateSite/static/js/main.cd204df0.js",
+    "main.js": "/COVIDMutationRateSite/static/js/main.65dc9f30.js",
+    "static/media/strin.png": "/COVIDMutationRateSite/static/media/strin.ce9dae45788e0fa354a5.png",
+    "static/media/medcomb.png": "/COVIDMutationRateSite/static/media/medcomb.07f41d687af3fb033303.png",
+    "static/media/highmedlow.png": "/COVIDMutationRateSite/static/media/highmedlow.c51dac81e4f12dc83642.png",
+    "static/media/spike.jpeg": "/COVIDMutationRateSite/static/media/spike.001217bada8a2f8c0383.jpeg",
     "index.html": "/COVIDMutationRateSite/index.html",
     "main.e6c13ad2.css.map": "/COVIDMutationRateSite/static/css/main.e6c13ad2.css.map",
-    "main.cd204df0.js.map": "/COVIDMutationRateSite/static/js/main.cd204df0.js.map"
+    "main.65dc9f30.js.map": "/COVIDMutationRateSite/static/js/main.65dc9f30.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.cd204df0.js"
+    "static/js/main.65dc9f30.js"
   ]
 }
