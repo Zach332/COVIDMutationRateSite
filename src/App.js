@@ -87,7 +87,7 @@ function App() {
               justifyContent: 'center'
               }}>
             <Typography variant="h6" component="div" sx={{m: 3}}>
-                Analyzing Mutation Dynamics
+                Analyzing Mutation Dynamics<sup><a href="https://www.nature.com/articles/s41598-021-97267-7" target="_blank">3</a></sup>
             </Typography>
             <img src={tree} width='50'></img>
         </Paper>
