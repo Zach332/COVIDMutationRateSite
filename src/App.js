@@ -59,8 +59,8 @@ function App() {
             </CardContent>
         </Card>
         <Card variant="outlined" sx={{m: 2, width: '60%'}}>
-            <CardActions>   
-                <Button onClick={() => {
+            <CardActions sx={{width: '100%'}}>   
+                <Button sx={{textAlign: 'center', width: '100%'}} onClick={() => {
                     window.open("https://nextstrain.org/ncov/gisaid/global/6m");
                 }} size="small">Explore COVID-19 Mutations</Button>
             </CardActions>
