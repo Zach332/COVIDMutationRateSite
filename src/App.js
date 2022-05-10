@@ -161,7 +161,17 @@ function App() {
                 </Typography>
                 <br></br>
                 <Typography variant="body2">
-                This high rate implies that the mutation rate of SARS-CoV-2 can increase without significant loss of viability	(at least in the	short run) and	that strategies to reduce viral fitness using things like mutagens should be tested with precaution since the virus can so easily mutate. Overall the results showed the relatively rapid ability of SARS-CoV-2 to adapt to new environments, in particular via convergent evolution of its spike protein.
+                This high rate implies that the mutation rate of SARS-CoV-2 can increase without significant loss of viability (at least in the short run) and	that strategies to reduce viral fitness using things like mutagens should be tested with precaution since the virus can so easily mutate. Overall the results showed the relatively rapid ability of SARS-CoV-2 to adapt to new environments, in particular via convergent evolution of its spike protein.
+                </Typography>
+            </CardContent>
+        </Card>
+        <Card sx={{m: 2, width: '60%'}}>
+            <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                    Purifying Selection<sup><a href="https://academic.oup.com/gbe/article/13/10/evab196/6357039" target="_blank">5</a></sup>
+                </Typography>
+                <Typography variant="body2">
+                    Another analysis by Morales et al. investigated a different way of estimating mutation rate rather than using the standard intergenomic comparison seen in earlier research. In this analysis they looked at the Ka/Ks ratio within the genome of variants - the ratio of substitutions that cause coding differences to substitutions that don’t produce different amino acids and by extension, proteins. Because they found this ratio to be higher than previously thought, there are stronger selection pressures within a human host than originally thought. This means a lot of mutations happen internally and are purged internally, and that the overall mutation rate is 49-67% higher than other estimates not using this technique have found.
                 </Typography>
             </CardContent>
         </Card>
