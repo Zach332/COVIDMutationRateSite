@@ -9,6 +9,8 @@ import spike from './spike.jpeg'
 import highmedlow from './highmedlow.png'
 import medcomb from './medcomb.png'
 import strin from './strin.png'
+import covid from './covid.svg'
+import tree from './tree.svg'
 import Box from '@mui/material/Box';
 import CardActions from '@mui/material/CardActions';
 import Button from '@mui/material/Button';
@@ -38,11 +40,14 @@ function App() {
         <Paper elevation={10} sx={{
               m: 4,
               width: '80%',
-              textAlign: 'center'
+              textAlign: 'center',
+              display: 'flex',
+              justifyContent: 'center'
               }}>
-            <Typography variant="h6" component="div" >
+            <Typography variant="h6" component="div" sx={{m: 3}}>
                 Motivation
             </Typography>
+            <img src={covid} width='50'></img>
         </Paper>
         <Card variant="outlined" sx={{m: 2, width: '60%'}}>
             <CardContent>
@@ -77,11 +82,14 @@ function App() {
         <Paper elevation={10} sx={{
               m: 4,
               width: '80%',
-              textAlign: 'center'
+              textAlign: 'center',
+              display: 'flex',
+              justifyContent: 'center'
               }}>
-            <Typography variant="h6" component="div" >
-                Analyzing Mutation Rates
+            <Typography variant="h6" component="div" sx={{m: 3}}>
+                Analyzing Mutation Dynamics
             </Typography>
+            <img src={tree} width='50'></img>
         </Paper>
         <Card variant="outlined" sx={{m: 2, width: '60%'}}>
             <CardContent>
