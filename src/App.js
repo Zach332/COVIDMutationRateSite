@@ -80,7 +80,7 @@ function App() {
               textAlign: 'center'
               }}>
             <Typography variant="h6" component="div" >
-                The Original Analysis
+                Analyzing Mutation Rates
             </Typography>
         </Paper>
         <Card variant="outlined" sx={{m: 2, width: '60%'}}>
