@@ -151,6 +151,20 @@ function App() {
             </Typography>
             <img src={virus} width='50'></img>
         </Paper>
+        <Card sx={{m: 2, width: '60%'}}>
+            <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                    Experimental Evolution<sup><a href="https://academic.oup.com/emph/article/10/1/142/6555377" target="_blank">4</a></sup>
+                </Typography>
+                <Typography variant="body2">
+                    Unlike DNA, RNA displays remarkably high rates of variation in replication fidelity. In this analysis by Amicone et. al, two strains of SARS-CoV-2 were taken and essentially made to infect generations of human cells in a lab (using something called a cell line). After this was done several times, the genomes of the resulting variants were sequenced and analyzed, specifically looking at relative mutation rate within the genome. Their results were similar to Arevalo et al., finding that the rate of mutation was different across the genome and at an overall rate of .44 substitutions a week, consistent with other coronaviruses. For example, the genes coding for the spike protein experienced a higher rate of mutation than other parts of the genome.
+                </Typography>
+                <br></br>
+                <Typography variant="body2">
+                This high rate implies that the mutation rate of SARS-CoV-2 can increase without significant loss of viability	(at least in the	short run) and	that strategies to reduce viral fitness using things like mutagens should be tested with precaution since the virus can so easily mutate. Overall the results showed the relatively rapid ability of SARS-CoV-2 to adapt to new environments, in particular via convergent evolution of its spike protein.
+                </Typography>
+            </CardContent>
+        </Card>
         </Box>
     </ThemeProvider>
   );
