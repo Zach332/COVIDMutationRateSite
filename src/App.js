@@ -19,8 +19,9 @@ function App() {
         <AppBar position="static">
             <Toolbar>
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                        COVID Mutation Rate Analysis
+                    COVID Mutation Rate Analysis
                 </Typography>
+                <img width="50" src={process.env.PUBLIC_URL + '/logo512.png'}></img>
             </Toolbar>
         </AppBar>
         <Box sx={{display: 'flex',
