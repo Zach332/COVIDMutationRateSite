@@ -35,17 +35,18 @@ function App() {
                 Motivation
             </Typography>
         </Paper>
-        <Card variant="outlined" sx={{m: 2, width: '50%'}}>
+        <Card variant="outlined" sx={{m: 2, width: '60%'}}>
             <CardContent>
                 <Typography variant="body2">
                 COVID-19 has caused nearly 1 million deaths in the United States alone [https://covid.cdc.gov/covid-data-tracker/#datatracker-home]. Understanding and modeling it can help inform public response and facilitate a better understanding of pandemics in general. The virus that causes COVID-19 mutates, and understanding the dynamics of these mutations over time—how prevalent mutations become, to what degree mutations persist, and how public health measures affect the reproduction of different types of mutations—provides one lens into the overall evolution of COVID-19 and the way in which public health measures can help.
                 </Typography>
             </CardContent>
         </Card>
-        <Card sx={{m: 2, width: '50%'}}>
+        <Card sx={{m: 2, width: '60%'}}>
             <CardMedia
                 component="img"
-                height="450"
+                height="100%"
+                width="100%"
                 image={spike}
             />
             <CardContent>
@@ -57,7 +58,7 @@ function App() {
                 </Typography>
             </CardContent>
         </Card>
-        <Card variant="outlined" sx={{m: 2, width: '50%'}}>
+        <Card variant="outlined" sx={{m: 2, width: '60%'}}>
             <CardActions>   
                 <Button onClick={() => {
                     window.open("https://nextstrain.org/ncov/gisaid/global/6m");
@@ -73,7 +74,7 @@ function App() {
                 The Original Analysis
             </Typography>
         </Paper>
-        <Card variant="outlined" sx={{m: 2, width: '50%'}}>
+        <Card variant="outlined" sx={{m: 2, width: '60%'}}>
             <CardContent>
                 <Typography variant="body2">
                 Arevalo et al. used data from sequenced COVID-19 cases around the world to find mutations with at least 3% frequency (the genomic sequencing data was normalized by the number of cases in countries, so that countries that provide less sequencing data are not underrepresented). They found 115 mutations meeting this threshold, and found that the relative frequencies of these mutations over time fit into three categories: high, medium, and low frequency. High frequency is the most striking category: each such mutation increased in relative frequency without ever significantly decreasing. There are two clear times at which these mutations arose. Both the low and medium frequency mutations alternate between increasing and decreasing, but the low frequency mutations have never exceeded 15% relative frequency.
@@ -83,14 +84,16 @@ function App() {
         <Card sx={{m: 2, width: '350px'}}>
             <CardMedia
                 component="img"
-                height="675"
+                height="100%"
+                width="100%"
                 image={highmedlow}
             />
         </Card>
-        <Card sx={{m: 2, width: '50%'}}>
+        <Card sx={{m: 2, width: '60%'}}>
             <CardMedia
                 component="img"
-                height="280"
+                height="100%"
+                width="100%"
                 image={medcomb}
             />
             <CardContent>
@@ -102,10 +105,11 @@ function App() {
                 </Typography>
             </CardContent>
         </Card>
-        <Card sx={{m: 2, width: '50%'}}>
+        <Card sx={{m: 2, width: '60%'}}>
             <CardMedia
                 component="img"
-                height="570"
+                height="100%"
+                width="100%"
                 image={strin}
             />
             <CardContent>
