@@ -12,10 +12,18 @@ import strin from './strin.png'
 import Box from '@mui/material/Box';
 import CardActions from '@mui/material/CardActions';
 import Button from '@mui/material/Button';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+
+
+const theme = createTheme({
+    palette: {
+        mode: "dark"
+    }
+});
 
 function App() {
   return (
-    <div>
+    <ThemeProvider theme={theme}>
         <AppBar position="static">
             <Toolbar>
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
@@ -123,7 +131,7 @@ function App() {
             </CardContent>
         </Card>
         </Box>
-    </div>
+    </ThemeProvider>
   );
 }
 
