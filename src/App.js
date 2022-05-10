@@ -11,6 +11,7 @@ import medcomb from './medcomb.png'
 import strin from './strin.png'
 import covid from './covid.svg'
 import tree from './tree.svg'
+import virus from './virus.svg'
 import Box from '@mui/material/Box';
 import CardActions from '@mui/material/CardActions';
 import Button from '@mui/material/Button';
@@ -138,6 +139,18 @@ function App() {
                 </Typography>
             </CardContent>
         </Card>
+        <Paper elevation={10} sx={{
+              m: 4,
+              width: '80%',
+              textAlign: 'center',
+              display: 'flex',
+              justifyContent: 'center'
+              }}>
+            <Typography variant="h6" component="div" sx={{m: 3}}>
+                Other COVID Mutation Analyses
+            </Typography>
+            <img src={virus} width='50'></img>
+        </Paper>
         </Box>
     </ThemeProvider>
   );
