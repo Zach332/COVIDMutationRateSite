@@ -39,7 +39,7 @@ function App() {
         <Card variant="outlined" sx={{m: 2, width: '60%'}}>
             <CardContent>
                 <Typography variant="body2">
-                COVID-19 has caused nearly 1 million deaths in the United States alone [https://covid.cdc.gov/covid-data-tracker/#datatracker-home]. Understanding and modeling it can help inform public response and facilitate a better understanding of pandemics in general. The virus that causes COVID-19 mutates, and understanding the dynamics of these mutations over time—how prevalent mutations become, to what degree mutations persist, and how public health measures affect the reproduction of different types of mutations—provides one lens into the overall evolution of COVID-19 and the way in which public health measures can help.
+                COVID-19 has caused nearly 1 million deaths in the United States alone.<sup><a href="https://covid.cdc.gov/covid-data-tracker/#datatracker-home" target="_blank">1</a></sup> Understanding and modeling it can help inform public response and facilitate a better understanding of pandemics in general. The virus that causes COVID-19 mutates, and understanding the dynamics of these mutations over time—how prevalent mutations become, to what degree mutations persist, and how public health measures affect the reproduction of different types of mutations—provides one lens into the overall evolution of COVID-19 and the way in which public health measures can help.
                 </Typography>
             </CardContent>
         </Card>
@@ -55,7 +55,7 @@ function App() {
                     On Mutations
                 </Typography>
                 <Typography variant="body2">
-                The virus that causes COVID-19 is SARS-CoV-2. Countries around the world regularly sequence the SARS-CoV-2 genome from cases of COVID-19 to monitor for mutations, so as to better understand its evolution and especially to monitor for new variants that may lead to different symptoms or affect vaccine effectiveness. mRNA vaccines instruct cells to produce a spike protein resembling that of SARS-CoV-2, which enables the immune system to learn to fight off a real SARS-CoV-2 virus [https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines/mrna.html]. So mutations in the spike protein of SARS-CoV-2 in particular can change how effective vaccines are at preparing the immune system, and makes understanding SARS-CoV-2 mutation even more important.
+                The virus that causes COVID-19 is SARS-CoV-2. Countries around the world regularly sequence the SARS-CoV-2 genome from cases of COVID-19 to monitor for mutations, so as to better understand its evolution and especially to monitor for new variants that may lead to different symptoms or affect vaccine effectiveness. mRNA vaccines instruct cells to produce a spike protein resembling that of SARS-CoV-2, which enables the immune system to learn to fight off a real SARS-CoV-2 virus.<sup><a href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines/mrna.html" target="_blank">2</a></sup> So mutations in the spike protein of SARS-CoV-2 in particular can change how effective vaccines are at preparing the immune system, and makes understanding SARS-CoV-2 mutation even more important.
                 </Typography>
             </CardContent>
         </Card>
