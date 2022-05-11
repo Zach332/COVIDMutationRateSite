@@ -140,6 +140,13 @@ function App() {
                 </Typography>
             </CardContent>
         </Card>
+        <Card variant="outlined" sx={{m: 2, width: '60%'}}>
+            <CardActions sx={{width: '100%'}}>   
+                <Button sx={{textAlign: 'center', width: '100%'}} onClick={() => {
+                    window.open("https://zach332.github.io/compbioscriptannotation/");
+                }} size="small">Our annotated methods page for the original script</Button>
+            </CardActions>
+        </Card>
         <Paper elevation={10} sx={{
               m: 4,
               width: '80%',
