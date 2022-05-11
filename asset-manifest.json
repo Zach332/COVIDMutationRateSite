@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/COVIDMutationRateSite/static/css/main.e6c13ad2.css",
-    "main.js": "/COVIDMutationRateSite/static/js/main.e79a2264.js",
+    "main.js": "/COVIDMutationRateSite/static/js/main.ff5e0a61.js",
     "static/media/strin.png": "/COVIDMutationRateSite/static/media/strin.ce9dae45788e0fa354a5.png",
     "static/media/medcomb.png": "/COVIDMutationRateSite/static/media/medcomb.07f41d687af3fb033303.png",
     "static/media/highmedlow.png": "/COVIDMutationRateSite/static/media/highmedlow.c51dac81e4f12dc83642.png",
@@ -12,10 +12,10 @@
     "static/media/covid.svg": "/COVIDMutationRateSite/static/media/covid.da79c757e5495a921b10a1a085129661.svg",
     "static/media/tree.svg": "/COVIDMutationRateSite/static/media/tree.f8eef494a0e1fef49773fc02beb95349.svg",
     "main.e6c13ad2.css.map": "/COVIDMutationRateSite/static/css/main.e6c13ad2.css.map",
-    "main.e79a2264.js.map": "/COVIDMutationRateSite/static/js/main.e79a2264.js.map"
+    "main.ff5e0a61.js.map": "/COVIDMutationRateSite/static/js/main.ff5e0a61.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.e79a2264.js"
+    "static/js/main.ff5e0a61.js"
   ]
 }
