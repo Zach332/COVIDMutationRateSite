@@ -12,6 +12,7 @@ import strin from './strin.png'
 import covid from './covid.svg'
 import tree from './tree.svg'
 import virus from './virus.svg'
+import law from './law.svg'
 import Box from '@mui/material/Box';
 import CardActions from '@mui/material/CardActions';
 import Button from '@mui/material/Button';
@@ -175,6 +176,21 @@ function App() {
                 </Typography>
             </CardContent>
         </Card>
+        <Paper elevation={10} sx={{
+              m: 4,
+              width: '80%',
+              textAlign: 'center',
+              display: 'flex',
+              justifyContent: 'center'
+              }}>
+            <Typography variant="h6" component="div" sx={{m: 3}}>
+                Stringency and Varient Frequency
+            </Typography>
+            <img src={law} width='50'></img>
+        </Paper>
+        <iframe width="60%" height="950" frameborder="0" style={{background: "white"}}
+            src="https://observablehq.com/embed/3ae140c42d2758f9?cells=viz_container%2Cstyles%2Cviewof+voc">
+        </iframe>
         </Box>
     </ThemeProvider>
   );
