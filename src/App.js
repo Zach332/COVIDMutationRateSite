@@ -191,9 +191,16 @@ function App() {
         <Card variant="outlined" sx={{m: 2, width: '60%'}}>
             <CardContent>
                 <Typography variant="body2">
-                    Arevalo et al., as described previously, did not find evidence that stringency measures differently affected the relative frequencies of high frequency and low/medium frequency mutations. We were interested in further exploring how stringency measures might affect the prevalence of varients. We used COVID case data reported by each country and submitted to GISAID<sup><a href="https://www.gisaid.org/" target="_blank">6</a></sup>; the data is classified by whether the case is a particular Varient of Concern (VOC). We also used country stringency data from Our World in Data<sup><a href="https://ourworldindata.org/covid-stringency-index" target="_blank">7</a></sup>. In the below interactive visualization, you can explore the relationship between a country's average stringency and the relative VOC frequencies in that country (aggregated over the time reported). You can filter the VOCs to show only a particular varient, and hover over an entry to see the country associated with that data point.
+                    Arevalo et al., as described previously, did not find evidence that stringency measures differently affected the relative frequencies of high frequency and low/medium frequency mutations. We were interested in further exploring how stringency measures might affect the prevalence of varients. We used COVID case data reported by each country and submitted to GISAID<sup><a href="https://www.gisaid.org/" target="_blank">6</a></sup>; the data is classified by whether the case is a particular Varient of Concern (VOC). We also used country stringency data from Our World in Data.<sup><a href="https://ourworldindata.org/covid-stringency-index" target="_blank">7</a></sup> In the below interactive visualization, you can explore the relationship between a country's average stringency and the relative VOC frequencies in that country (aggregated over the time reported). You can filter the VOCs to show only a particular varient, and hover over an entry to see the country associated with that data point.
                 </Typography>
             </CardContent>
+        </Card>
+        <Card variant="outlined" sx={{m: 2, width: '60%'}}>
+            <CardActions sx={{width: '100%'}}>   
+                <Button sx={{textAlign: 'center', width: '100%'}} onClick={() => {
+                    window.open("https://observablehq.com/embed/3ae140c42d2758f9?cells=viz_container%2Cstyles%2Cviewof+voc");
+                }} size="small">View in another tab</Button>
+            </CardActions>
         </Card>
         <iframe width="60%" height="950" frameborder="0" style={{background: "white"}}
             src="https://observablehq.com/embed/3ae140c42d2758f9?cells=viz_container%2Cstyles%2Cviewof+voc">
